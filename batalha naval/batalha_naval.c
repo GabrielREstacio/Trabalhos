@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #define tamanhoTabuleiro 10
 #define tamanhoNavio 3
 
@@ -17,13 +18,9 @@ void imprimirTabuleiro(int tabuleiro[tamanhoTabuleiro][tamanhoTabuleiro]) { // i
         printf("%2d ", i); 
     }
     printf("\n");
-    for (int i = 0; i < tamanhoTabuleiro; i++) {
-        printf("----");
-    }
-    printf("\n");
 
     for (int i = 0; i < tamanhoTabuleiro; i++) {
-        printf("%2d| ", i);
+        printf("%2d ", i);
         for (int j = 0; j < tamanhoTabuleiro; j++) {
             printf("%2d ", tabuleiro[i][j]);
         }
