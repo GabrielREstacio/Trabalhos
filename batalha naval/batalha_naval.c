@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define tamanhoTabuleiro 10
 #define tamanhoNavio 3
 
